@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
 
 *{
     margin: 0;
@@ -46,6 +47,16 @@ section{
     align-items: center;
     justify-content: space-between;
 }
+
+.skills-content h2{
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* .skills-content p{
+    font-family: 'Quicksand', sans-serif;
+
+} */
 section .title{
     position: relative;
     text-align: center;
@@ -224,6 +235,8 @@ section .title::after{
 .about .typo{
     font-size: 25px;
     font-weight: 300;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
 }
 .about{
     background: rgb(245, 235, 235);
@@ -247,14 +260,17 @@ section .title::after{
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
-    margin-bottom: 10px;
+
 }
 .about .about-content .right .text span{
     color: tomato;
 }
 .about .about-content .right p{
-    text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .1px;
+
 }
 .about .about-content .right a{
     display: inline-block;
@@ -292,8 +308,10 @@ section .title::after{
     margin-bottom: 10px;
 }
 .skills .skills-content .left p{
-    text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .1px
 }
 .skills .skills-content .left a{
     display: inline-block;
@@ -306,6 +324,7 @@ section .title::after{
     border-radius: 6px;
     border: 2px solid tomato;
     transition: all 0.3s ease;
+    font-family: 'Quicksand', sans-serif;
 }
 .skills .skills-content .left a:hover{
     color: tomato;
@@ -323,6 +342,7 @@ section .title::after{
 .skills .skills-content .right span{
     font-weight: 500;
     font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
 }
 .skills .skills-content .right .line{
     height: 5px;
@@ -360,9 +380,11 @@ section .title::after{
 }
 .projects p{
     color: rgb(212, 39, 9);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 .projects .title::after{
-    content: "who with me";
+    content: "what I've done";
     font-family: cursive;
     background: rgb(234, 247, 247);
 }
@@ -392,6 +414,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
     color: rgb(212, 39, 9);
+    font-family: 'Quicksand', sans-serif;
 }
 .projects .carousel .card img{
     height: 150px;
@@ -437,13 +460,15 @@ section .title::after{
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
-.contact .contact-content .text{
-    font-size: 20px;
-    font-weight: 600;
+.contact .contact-content h2{
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 10px;
 }
 .contact .contact-content .left p{
-    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .1px;
+
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -455,6 +480,9 @@ section .title::after{
 }
 .contact .contact-content .row .info{
     margin-left: 30px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    letter-spacing: .1px;
 }
 .contact .contact-content .row i{
     font-size: 25px;
@@ -639,6 +667,15 @@ footer span a:hover{
 }
 
 @media (max-width: 500px) {
+    .about .about-content .right p{
+        font-size: 15px;
+        
+    }
+
+    .skills .skills-content .left p{
+        font-size: 15px;
+    }
+
     .home .home-content .text-2{
         font-size: 50px;
     }
@@ -666,5 +703,11 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+
+    .skills .skills-content .right span{
+        font-weight: 500;
+        font-size: 16px;
+        font-family: 'Quicksand', sans-serif;
     }
 }

@@ -33,6 +33,7 @@ $(document).ready(function(){
         $('.menu-btn i').toggleClass("active");
     });
 
+  
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Java Web Developer", "Cyber security expert", "Designer", "Fun guy😉"],
@@ -69,5 +70,16 @@ $(document).ready(function(){
                 nav: false
             }
         }
-    });
+    }); 
 });
+
+
+// message me button
+
+function sendMail() {
+   const subject = document.getElementById('subject').value;
+   const body = document.getElementById('message').value;
+//    const email = document.getElementById('email').value;
+   const name = document.getElementById('name').value;
+    window.open(`mailto:uchey.ikenna@gmail.com?subject=${subject}&body=${`My name is ${name + '. '}` + body}`);
+}

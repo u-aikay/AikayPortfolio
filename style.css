@@ -36,7 +36,7 @@ section{
     margin: auto;
 }
 .about, .skills, .projects, .contact, footer{
-    font-family: cursive 'Poppins', sans-serif;
+    font-family: cursive, 'Poppins', sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -359,16 +359,22 @@ section .title::after{
     background: tomato;
 }
 .skills-content .right .java::before{
-    width: 90%;
+    width: 95%;
 }
-.skills-content .right .mysql::before{
+.skills-content .right .dbms::before{
     width: 80%;
 }
+.skills-content .right .git::before{
+    width: 90%;
+}
+.skills-content .right .swagger::before{
+    width: 85%;
+}
 .skills-content .right .html::before{
-    width: 65%;
+    width: 90%;
 }
 .skills-content .right .css::before{
-    width: 55%;
+    width: 65%;
 }
 .skills-content .right .js::before{
     width: 50%;

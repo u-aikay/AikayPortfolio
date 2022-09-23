@@ -367,17 +367,14 @@ section .title::after{
 .skills-content .right .git::before{
     width: 90%;
 }
+.skills-content .right .springboot::before{
+    width: 90%;
+}
 .skills-content .right .swagger::before{
     width: 85%;
 }
-.skills-content .right .html::before{
-    width: 90%;
-}
-.skills-content .right .css::before{
-    width: 65%;
-}
-.skills-content .right .js::before{
-    width: 50%;
+.skills-content .right .react::before{
+    width: 70%;
 }
 
 /* projects section styling */
